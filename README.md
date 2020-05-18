@@ -1,18 +1,22 @@
-## Projet Informatique :
-# Sujet n°22 : Identification de fonctions de transfert [***]
+# Function Identifier
 
-> Réalisé par Charpentier Fabien, Chaabouni Sarah, Aoyagi Hugo
+> This is a school project made by : 
+> - Fabien Charpentier
+> - Sarah Chaabouni
+> - Hugo Aoyagi (myself)
+ 
+This code allows you to either add noise to values if you wish to, or identify the caracteristics of 3 type of functions:
+ - Line (ax + b)
+ - First order transfer function
+ - Second order transfer function (only with swings)
+ 
+## Example
 
-### Note :
- La fenetre permettant d'exporter l'équation sous forme de code Latex ou bien sous forme de code python ne fonctionnera pas sur pyzo car elle utilise une librairie qui n'est pas compatible avec pyzo. Si vous utilisez pyzo, indiquez le lors du démarrage de l'application en entrant "O" (o majuscule).
- Cette fenetre n'est pas essentielle au fonctionnement, indiquer "O" ne la lancera simplement pas lorsque vous appuierais sur le bouton.
+ ![results menu](https://github.com/Hugo-AOYAGI/function-identifier/blob/master/assets/example.png?raw=true)
 
-Ce dossier comporte:
+## How it works
 
-- Le code **`main.py`** qui comporte toute la logique du programme, c'est celui à lancer pour voir l'application. Il faut ensuite entrer le chemin vers le dossier dans la console.
+The algorithm calculates all the partial derivatives of the cost function to find (through Newton's Method) the best modification of the function's parameters.
 
-- Le code **`partial_derivatives.py`** qui comporte les dérivées partielles et certaines fonctions utiles au fonctionnement de l'application.
+Once the parameters have stabilized, you can display the equation either in latex or in python.
 
-- Le dossier **example_values** qui contient des fichiers textes de valeurs bruitées ou non et deux codes pythons permettant de créer des nouvelles valeurs d'example ou les visualiser.
-
-- Le fichier **`sheets.json`** qui contient les éléments de style de l'interface (police d'écriture, bordures ...etc).
