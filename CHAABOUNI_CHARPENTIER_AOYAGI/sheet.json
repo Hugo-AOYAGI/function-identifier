@@ -1,0 +1,192 @@
+{
+    "mainMenu": {},
+    "noiseMenu": {},
+    "identifyMenu": {},
+    "mm_title": {
+        "font": "'Arial', 23",
+        "relief": "groove",
+        "text": "Identification de fonction de transfert"
+    },
+    "mm_identify_btn": {
+        "command": "82049624<lambda>",
+        "font": "'Arial', 12",
+        "text": "Identifier une fonction de transfert"
+    },
+    "mm_noise_btn": {
+        "command": "82049224<lambda>",
+        "font": "'Arial', 12",
+        "text": "Ajouter du bruit \u00e0 des donn\u00e9es"
+    },
+    "nm_back_btn": {
+        "command": "82048784<lambda>",
+        "font": "'Arial', 18",
+        "text": "Retour"
+    },
+    "nm_title_lbl": {
+        "font": "'Arial', 23",
+        "relief": "groove",
+        "text": "Ajouter du bruit \u00e0 des donn\u00e9es"
+    },
+    "nm_selected_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "Fichier"
+    },
+    "nm_selected_btn": {
+        "font": "'Arial', 13",
+        "relief": "groove",
+        "text": "N/A"
+    },
+    "nm_intensity_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "Intensit\u00e9"
+    },
+    "nm_intensity_input": {
+        "from_": 0,
+        "to": 1,
+        "increment": 0.01
+    },
+    "nm_prob_law_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "Loi de probabilit\u00e9"
+    },
+    "nm_prob_law_input": {
+        "font": "'Arial', 13"
+    },
+    "nm_type_input": {
+        "font": "'Arial', 13"
+    },
+    "nm_confirm_btn": {
+        "command": "82065368<lambda>",
+        "font": "'Arial', 13",
+        "text": "Confirmer"
+    },
+    "nm_separator_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "S\u00e9parateur"
+    },
+    "nm_separator_input": {
+        "font": "'Arial', 23",
+        "justify": "center"
+    },
+    "im_back_btn": {
+        "command": "59110864<lambda>",
+        "font": "'Arial', 17",
+        "text": "Retour"
+    },
+    "im_title_lbl": {
+        "font": "'Arial', 23",
+        "relief": "groove",
+        "text": "Identifier une fonction de transfert"
+    },
+    "im_selected_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "Fichier"
+    },
+    "im_selected_input": {
+        "font": "'Arial', 13",
+        "relief": "groove",
+        "text": "N/A"
+    },
+    "im_separator_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "S\u00e9parateur"
+    },
+    "im_separator_input": {
+        "font": "'Arial', 23",
+        "justify": "center"
+    },
+    "im_type_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "Type"
+    },
+    "im_confirm_btn": {
+        "font": "'Arial', 13",
+        "text": "Confirmer"
+    },
+    "resultMenu": {},
+    "rm_title_lbl": {
+        "font": "'Arial', 23",
+        "relief": "groove",
+        "text": "R\u00e9sultat"
+    },
+    "graphCanv": {
+        "bd": "2",
+        "borderwidth": "2",
+        "relief": "groove",
+        "height": 400,
+        "width": 1000
+    },
+    "rm_back_btn": {
+        "command": "82048784<lambda>",
+        "font": "'Arial', 18",
+        "text": "Retour"
+    },
+    "rm_arg_lbl": {
+        "font": "'Arial', 14",
+        "relief": "groove"
+    },
+    "rm_arg_val_lbl": {
+        "font": "'Arial', 12",
+        "relief": "groove"
+    },
+    "rm_forward_btn": {
+        "font": "'Arial', 20",
+        "relief": "groove",
+        "text": ">>"
+    },
+    "rm_next_btn": {
+        "font": "'Arial', 20",
+        "relief": "groove",
+        "text": ">"
+    },
+    "rm_pause_btn": {
+        "font": "'Arial', 20",
+        "relief": "groove",
+        "text": "l l"
+    },
+    "rm_cpm_lbl": {
+        "font": "'Arial', 12",
+        "relief": "groove",
+        "text": "Cycles par seconde"
+    },
+    "rm_cps_input": {
+        "justify": "center"
+    },
+    "rm_export_btn": {
+        "font": "'Arial', 12",
+        "relief": "groove",
+        "text": "Exporter l'\u00e9quation"
+    },
+    "rm_reset_btn": {
+        "font": "'Arial', 13",
+        "relief": "groove",
+        "text": "Reset"
+    },
+    "mm_theme_btn": {
+        "font": "'Arial', 10",
+        "relief": "groove",
+        "text": "Theme"
+    },
+    "rm_error_lbl": {
+        "font": "'Arial', 16",
+        "relief": "groove",
+        "text": "Erreur Relative"
+    },
+    "rm_error_val": {
+        "font": "'Arial', 14",
+        "relief": "groove",
+        "text": "100%"
+    },
+    "rm_cycles_lbl": {
+        "font": "'Arial', 12",
+        "relief": "groove",
+        "text": "Cycles : 0"
+    }
+}
